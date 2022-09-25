@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assests/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header row col-12   align-items-center justify-content-around">
+        <div class="logo col-lg-2 col-md-2 col-10 "><img src="assests/images/logo.png" width="80px"></div>
+
+
+        <!-- mobile hambuger -->
+        <div onclick="dropdown()"
+            class="icon d-lg-none d-md-none d-block col-1 d-flex flex-column justify-content-around ">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <div class="menu d-lg-none d-md-none">
+            <ul
+                class="mobile d-lg-none d-md-none d-block text-white col-12 p-3   align-items-center d-flex flex-column text-right">
+                <li>Home</li>
+                <li>Features</li>
+                <li>Model</li>
+                <li>Contact</li>
+                <li>
+                    <button class="login">Login </button>
+                </li>
+            </ul>
+        </div>
+        <!-- mobile hambuger -->
+
+
+
+        <div class="nav col-6 d-none d-md-block d-lg-block">
+            <ul class="text-white d-flex align-items-end col-lg-9 col-none justify-content-between align-items-center">
+                <li>Home</li>
+                <li>Features</li>
+                <li>Model</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <button class="login btn d-none d-lg-block d-md-block ">Login </button>
+    </div>
+
+    <!-- banner-start -->
+    <div class="banner col-lg-12 col-md-12 col-12 d-flex align-items-center">
+        <div class="left col-lg-6 col-12 px-3 pt-5 flex-column d-flex justify-content-around">
+            <h1 class="text-white display-5">Meaning Of Power</h1>
+            <p class="text-white col-lg-10 col-12  fs-6">The Motogun® Nightster™ motorcycle is the next chapter
+                in the Moto-Gun Sportster™ legacy
+                a leap forward in performance and design built on a foundation laid 65 years ago</p>
+            <button class="book btn col-lg-3 col-4 col-md-2">Book Now</button>
+            <div class="box col-lg-8 col-md-7  col-12 row mt-5 justify-content-between ">
+                <div class="box1 text-white col-lg-4 col-3">
+                    <h1>975cc</h1>
+                    <p class="content">Engine Power</p>
+                    <div class="bar col-11 bg-light"></div>
+
+                </div>
+
+                <div class="box1 text-white col-lg-3 col-3">
+                    <h1>89HP</h1>
+                    <p class="content">@7500 RPM</p>
+                    <div class="bar col-10 bg-light"></div>
+
+                </div>
+
+                <div class="box1 text-white col-lg-3 col-3 ">
+                    <h1>211KG</h1>
+                    <p class="content">Weight</p>
+                    <div class="bar col-8 bg-light"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner end -->
+    <h1 class="text-center mt-5">Variants of Raven Power</h1>
+    <p class="text-center my-3 col-lg-7 col-md-10 m-auto">Fans of the classic Sportster™ silhouette paired with a
+        Revolution™ Max engine and advanced features.Riders looking for a quick and nimble motorcycle with razor-sharp
+        handling
+        Enthusiasts who appreciate the</p>
+
+    <!-- cards -->
+    <div class="cards row m-auto col-12 justify-content-between row-g-5">
+        <div class="card col-lg-3 col-md-6 col-6 align-items-center">
+            <img src="assests/images/card1.png" width="90%">
+            <h1>Sportster™ Classic</h1>
+            <img src="assests/images/3.5 star.png" width="40%">
+            <p class="py-1">Rs 36.75 lakh</p>
+            <button class="booknow btn ">Book Now</button>
+        </div>
+
+
+        <div class="card col-lg-3 col-md-6 col-6 align-items-center">
+            <img src="assests/images/card2.png" width="90%">
+            <h1>Iron 883™ Classic</h1>
+            <img src="assests/images/3star.png" width="40%">
+            <p class="py-1">Rs 27.36 lakh</p>
+            <button class="booknow btn">Book Now</button>
+        </div>
+
+
+        <div class="card second col-lg-3 col-md-6 col-6   align-items-center">
+            <img src="assests/images/card3.png" width="90%">
+            <h1>Forty-Eight™</h1>
+            <img src="assests/images/4.5 star.png" width="40%">
+            <p class="py-1">Rs 43.20 lakh</p>
+            <button class="booknow btn">Book Now</button>
+        </div>
+
+
+        <div class="card second col-lg-3 col-md-6 col-6   align-items-center">
+            <img src="assests/images/card4.png" width="90%">
+            <h1>Road King™</h1>
+            <img src="assests/images/4star.png" width="40%">
+            <p class="py-1">Rs 53.55 lakh</p>
+            <button class="booknow btn">Book Now</button>
+        </div>
+    </div>
+      <!-- cards -->
+
+
+<!-- running bike -->
+<div class="bike row my-3 mt-5 col-12">
+
+    <div class="left pt-5 col-lg-6 col-12">
+        <div class="caption d-flex align-items-center">
+            <p class="m-0 me-2">TOURER KING</p><div class="bar"></div>
+            
+        </div>
+        <h4 class="my-3">Pan America™ 2022 Special Edition</h4>
+        <p>The Pan America™ 1250 Special motorcycle is our premier two-wheel multi-tool built to endure, designed to explore, and engineered for adventure.</p>
+<h6 class="my-3 mt-5">THIS IS THE RIGHT BIKE FOR</h6>
+<ul>
+    <li>Enthusiasts who see touring as detouring</li>
+    <li>ADV riders seeking power, tech and capability in a design package that is uniquely H-D  </li>
+    <li>Versatility and comfort, on and off-road</li>
+</ul>
+    </div>
+
+
+
+    <div class="right col-lg-6 col-12 justify-content-center d-flex">
+        <img class="pic" src="assests/images/bike.png" width="80%">
+        <img class="front" src="assests/images/mcccc.png" width="21%">
+        <img class="back" src="assests/images/mcccc.png" width="21%">
+    </div>
+    
+</div>
+<!-- running bike -->
+
+<!-- model -->
+
+  
+<div class="model row justify-content-between mt-5">
+
+    <div class="left1 col-lg-4">
+<div class="first col-lg-12  col-10 m-auto">
+<div class="heading d-flex align-items-center ">
+        <h5>Dual Channel ABS</h5><img class="ps-3" src="assests/images/abs.png" width="10%"></div>
+        <p>Dual channels, you get front and rear ABS brakes. Thier difference is nothing but different in meleage & horse power.</p>
+    </div>
+
+    <div class="second col-lg-10 pt-5 my-5 col-10 m-auto ">
+        <div class="heading d-flex align-items-center col-12 ">
+                <h5>Aluminium Swingarm</h5><img class="ps-3" src="assests/images/armswing.png" width="12%"></div>
+                <p>a single or double sided mechanical device which attaches the rear wheel of a motorcycle to its body, allowing it to pivot vertically.</p>
+            </div>
+
+            <div class="third col-lg-12 pt-5 col-10 m-auto">
+                <div class="heading d-flex align-items-center col-12">
+                        <h5>Upside Down Fork</h5><img class="ps-3" src="assests/images/fork.png" width="12%"></div>
+                        <p>The term USD stands for UpSide Down. It is a telescopic fork but fitted inversely or in an upside-down position.</p>
+                    </div>
+    </div>
+
+    <div class="image col-lg-2 col-8 m-auto d-flex justify-content-center">
+        <img src="assests/images/model.png" width="100%">
+    </div>
+    <div class="right1 col-lg-4">
+        <div class="first col-lg-12 col-10  m-auto">
+            <div class="heading d-flex align-items-center col-12">
+                   <img class="pe-3" src="assests/images/engine.png" width="15%"> <h5>Twin Engine with VVA</h5></div>
+                    <p>Variable valve actuation (VVA) technologies are used to add flexibility to the engine's valve train by enabling variable valve event timing, duration and/or lift.</p>
+                </div>
+            
+                <div class="second col-lg-10 col-10  pt-5 my-5 ms-4">
+                    <div class="heading d-flex align-items-center col-12">
+                           <img class="pe-3" src="assests/images/gear.png" width="14%"> <h5>Quick Swifter</h5></div>
+                        <p>A quickshifter (or quick shifter) is a device that eliminates the need to use the clutch or throttle when shifting gears on a manual transmission.</p>
+                        </div>
+            
+                        <div class="third col-lg-12 col-10 m-auto  pt-5">
+                            <div class="heading d-flex align-items-center col-12">
+                                    <img class="pe-3" src="assests/images/gps.png" width="12%"><h5>Traction Control System</h5></div>
+                                    <p>Without traction control, a bike may drift, wheelie, or even do a burnout.</p>
+                                </div>
+    </div>
+</div>
+<!-- model -->
+<div class="suspension row justify-content-around mt-5">
+    <div class="image col-lg-5 col-11"><img src="assests/images/sus.png" width="100%"></div>
+    <div class="content col-lg-6 col-11">
+        <h2>SUSPENSION</h2>
+        <h2 class=" rider my-4">RIDER COMFORT</h2>
+        <p>The suspension lets the wheels move up and down to absorb small bumps while keeping the tires in contact with the ground for better control. It also helps the rider and bike absorb large shocks when landing jumps. Both the front and rear suspension systems contain two essential elements: a spring and a damper</p>
+    </div>
+</div>
+
+<div class="meter row justify-content-around">
+    
+    <div class="content col-lg-6 col-11">
+        <h2>GREAT EXPECTATIONS</h2>
+        <h2 class=" rider my-4">DIGITAL SUPPORTS</h2>
+        <p>The suspension lets the wheels move up and down to absorb small bumps while keeping the tires in contact with the ground for better control. It also helps the rider and bike absorb large shocks when landing jumps. Both the front and rear suspension systems contain two essential elements: a spring and a damper</p>
+    </div>
+    <div class="image col-lg-5 col-11"><img src="assests/images/meter.jpg" width="100%"></div>
+</div>
+
+<!-- footer -->
+<footer class="bg-dark pt-5 mt-5">
+ <div class="line col-10 m-auto"></div>
+<div class="content row col-lg-10 col-11 m-auto mt-3 g-3">
+ <ul class="col-lg-5 ">
+    <h6>CUSTOMER SUPPORT</h6>
+    <li>Contact Us</li>
+    <li>Offers</li>
+    <li>Respond to Covid-19</li>
+</ul>
+<ul class="col-lg-5 col-5">
+    <h6>FINANCING</h6>
+    <li>Motorcycle Financing</li>
+    <li>Apply for Financing</li>
+    
+</ul>
+<ul class="col-lg-5">
+    <h6>Motorcycle Services</h6>
+    <li>Authorised Service</li>
+    <li>Owner's Manual</li>
+    <li>Maintanance Service</li>
+    <li>Software Update</li>
+    <li>Roadside Assistance</li>
+</ul>
+<ul class="col-lg-5">
+    <h6>About Us</h6>
+    <li>Our Company</li>
+    <li>Investors</li>
+    <li>Become a Dealer</li>
+    <li>Factory Tours</li>
+    <li>Museum</li>
+</ul>
+</div>
+<div class="line col-10 m-auto"></div>
+<p class="col-10 m-auto">©2022 H-D or its affiliates. MOTOGUN, MOTO, M-G, and the Bar and Shield Logo are among the trademarks of H-D U.S.A., LLC. Third-party trademarks are the property of their respective owners</p>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let a = document.getElementsByClassName("menu")[0];
+        let b = document.getElementsByClassName("icon")[0];
+        let c = document.getElementsByClassName("change")[0];
+
+        function dropdown() {
+            a.classList.toggle("view");
+            b.classList.toggle("change");
+
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>

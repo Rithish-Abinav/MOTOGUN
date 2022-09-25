@@ -1,0 +1,425 @@
+@font-face {
+    font-family: pm;
+    src: url(fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: pb;
+    src: url(fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: ps;
+    src: url(fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: pr;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: pm !important;
+}
+
+.header{
+    height: 70px;
+    background-color: black;
+    font-weight: normal !important;
+}
+.nav ul{
+list-style-type: none;
+margin: 0 !important;
+font-size: 1.1rem;
+}
+
+.login{
+color: white !important;
+font-weight: bold !important;
+background-color: #9D0105 !important;
+    width: 100px !important;
+}
+.row{
+    --bs-gutter-x: 0 !important;
+}
+.banner{
+    background-image: url(images/bannerbg.jpg);
+    height: 600px;
+    background-size: cover;
+    
+}
+.banner h1{
+  
+  
+}
+/* hanburger */
+.icon{
+
+    height: 30px;
+   
+}
+.menu{
+    display: none;
+    z-index: 2;
+}
+.mobile
+{
+    display:block !important;
+    list-style-type: none;
+    line-height: 60px;
+    background-color: gray;
+}
+
+
+.view{
+   
+    display: block;
+    animation: ani .2s linear ;
+    animation-fill-mode: forwards;
+}
+
+.caption .bar{
+    height: 3px;
+    width: 40px;
+    background-color: #9D0105;
+}
+.bike .left{
+    height: fit-content !important;
+    padding-left: 100px !important;
+    padding-right: 50px !important;
+}
+.left h6{
+    color: #9D0105;
+    text-decoration: underline;
+}
+@keyframes ani{
+    from
+    {
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+/* bike animation */
+.bike .right{
+    position: relative;
+    height: fit-content !important;
+}
+.pic{
+    z-index: 2;
+}
+.front{
+    position: absolute;
+    top: 233.5px;
+    left: 80px;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+animation-direction: alternate;
+}
+.back{
+    position: absolute;
+    top: 233.5px;
+    right: 98px;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+
+.line1{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.change .line1{
+    transform: rotate(45deg) translateY(10px) translateX(10px);
+}
+.line2{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.change .line2{
+    opacity: 0;
+}
+.line3{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.change .line3{
+    transform: rotate(-45deg) translateY(-4px) translateX(4px);
+}
+
+/* hanburger */
+.banner p{
+   
+  
+    font-family: pr !important;
+    font-size: 1rem !important;
+}
+.banner .book{
+    background-color: #9D0105;
+    color: white !important;
+   
+    
+}
+.left{
+    height: 400px;
+}
+.box h1{
+    font-size: 1.3rem !important;
+    padding: 0;
+    margin: 0;
+    font-family: pb !important;
+}
+.box p{
+    font-size: 1rem;
+    padding: 0;
+    margin: 0 0 3px 0;
+}
+.bar{
+    height: 1px;
+}
+.card{
+    border: none !important;
+}
+.card h1{
+    font-size: 1.2rem;
+    font-family: ps !important;
+}
+.card p{
+    font-size: 1rem;
+    margin-bottom: 5px !important;
+}
+.booknow{
+    background-color: #9D0105 !important;
+    color: white !important;
+}
+.model .left1 .first .heading{
+    justify-content: end;
+}
+.model .left1 .second .heading{
+    justify-content: end ;
+}
+.model .left1 .third .heading{
+    justify-content: end;
+}
+.model .left1 p{
+    width: 300px;
+float: right !important;
+text-align: right;
+font-size: 12px;
+}
+.model .right1 p{
+    width: 300px;
+float: left !important;
+text-align: left;
+font-size: 12px;
+}
+.model .second{
+    margin-right: 100px;
+}
+
+.left1 .first
+{
+    padding-top: 1rem;
+}
+.right1 .first
+{
+    padding-top: 1rem;
+}
+.suspension .content{
+    margin-top: 100px;
+}
+.content h2{
+    font-family: ps !important;
+    color: #9D0105;
+}
+.rider{
+   color:black !important;
+    font-family: ps !important;
+}
+.meter .content{
+    margin-top: 60px;
+    text-align: right;
+    
+}
+footer{
+    background-color: black;
+    
+}
+.line{
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+}
+footer ul{
+    color: white;
+    list-style-type: none;
+}
+footer p{
+    color: white;
+    padding: 20px 0px !important;
+    font-size: 10px;
+    
+}
+.content h6{
+    font-family: pb !important;
+}
+
+button:hover{
+    background-color: white !important;
+    color: #9D0105 !important;
+    border: solid 2px #9D0105;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+  
+    .login{
+       line-height: 35px;
+       border-radius: 10px;
+    }
+    .box1 h1{
+        font-size: 15px !important;
+    }
+    .box1 p{
+        font-size: 10px !important;
+        padding-top: 0px !important;
+    }
+   .banner{
+  align-items:none !important;
+height: 500px;
+ 
+
+   }
+  
+   .second{
+    margin-top: 30px !important;
+   }
+   .bike .left{
+    height: fit-content !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.pic{
+ z-index: 2;
+    }
+    .front{
+        position:absolute ;
+        top: 130.5px;
+        left:45px;
+        animation-name: rotate;
+        animation-iteration-count: infinite;
+        animation-duration: 15s;
+        animation-fill-mode: forwards;
+    }
+    .back{
+        position: absolute;
+        top: 130.5px;
+        right: 55px;
+        animation-name: rotate;
+        animation-iteration-count: infinite;
+        animation-duration: 15s;
+        animation-fill-mode: forwards;
+    }
+    .bike .right{
+ 
+        position: relative;
+    }
+    .model .image{
+        order: 1;
+    }
+    .model .left1{
+        order: 2;
+      
+    }
+    .model .right1{
+        order: 3;
+    }
+    .left1 .first .heading h5{
+        order: 2;
+    }
+    .left1 .second .heading h5{
+        order: 2;
+    }
+    .left1 .third .heading h5{
+        order: 2;
+    }
+    .model .left1 p{
+        width: 300px;
+    float: left !important;
+    text-align: left;
+    font-size: 12px;
+    }
+    .model .left1 .first .heading{
+        justify-content: start;
+    }
+    .model .left1 .second .heading{
+        justify-content: start ;
+    }
+    .model .left1 .third .heading{
+        justify-content:left;
+    }
+    .model .left1 .second{
+        margin-top: 0 !important;
+    }
+    .model .left1 img{
+        padding-right: 1rem;
+        padding-left: 0 !important;
+        width: 15%;
+    }
+    .first{
+    margin-top: 0rem !important;
+    }
+    .suspension .content{
+        margin-top: 0px;
+        text-align: center;
+        
+    }
+    .meter .content{
+        margin-top: 0px;
+        order: 2;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    footer .content{
+        margin-left: 30px !important;
+    }
+    .bike .left{
+        order: 1;
+    }
+}
